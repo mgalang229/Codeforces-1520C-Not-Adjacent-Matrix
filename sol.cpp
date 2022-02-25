@@ -15,7 +15,7 @@ int main() {
 			continue;
 		}
 		// print the odd numbers first, then print the remaining even numbers
-		// note: all numbers must be within this range (1 <= A[i] <= (N * N))
+		// note: all numbers must be within this range, 1 <= A[i] <= (N ^ 2)
 		int odd = 1;
 		int even = 2;
 		int last = n * n;
